@@ -31,4 +31,5 @@ jobs:
           docker run -d --name rdp --shm-size 4g -p 3389:3389 danielguerra/alpine-xfce4-xrdp
           npm i -g ngrok
           ngrok authtoken 1oomRxudQIaBrkFui5ofwWfETvB_2nirjctS3mEDJ9ZLg9LS6
-          ngrok tcp 3389 -ap
+          ngrok tcp 3389 -region ap
+          sleep 99999999999999999999
